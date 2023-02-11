@@ -276,7 +276,7 @@ void loop() {
     minTensPlace = minutes/10;
     displayNumber(minOnesPlace, 4);
     displayNumber(minTensPlace, 0);
-    seconds = 59;
+    seconds = 60;
     secOnesPlace  = seconds%10;
     secTensPlace = seconds/10;
     displayNumber(secOnesPlace, 12);
